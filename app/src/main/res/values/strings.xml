@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Battery Health</string>
+    <string name="connected_device">Connected Devices</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment">
+
+    <Button
+        android:id="@+id/connected_device_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_background"
+        android:theme="@style/CustomButtonStyle"
+        android:textColor="@color/button_text_color"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:text="@string/connected_device" />
+
+</FrameLayout>
